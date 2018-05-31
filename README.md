@@ -1,5 +1,12 @@
 # TwitterEngine
 Example BootStrap web application that uses Spring Boot to build up Spring MVC based REST backend application, with Spring Security and Spring Data JPA, and HSQL.
+Stack
+
+    Spring Security
+    Spring Boot
+    Spring Data JPA
+    Maven
+    HSQL
 
 Basic capabilities:
 1. HelloWorld REST API exposed for access. 
