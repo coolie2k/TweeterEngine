@@ -1,4 +1,10 @@
 # TwitterEngine
-Example BootStrap Application that uses Spring Security and Jersey REST backend based on Hibernate/JPA
+Example BootStrap web application that uses Spring Boot to build up Spring MVC based REST backend application, with Spring Security and Spring Data JPA, and HSQL.
 
-Secure a REST Service using Spring and Spring Security with Java based configuration. Focus on how to set up the Security Configuration specifically for the REST API using a Login and Cookie approach.
+Basic capabilities:
+1. HelloWorld REST API exposed for access. 
+2. Secure the REST Service by Spring Security with Java based configuration. Any other page needs to sign-up/login. Users are able to reset password.
+3. Twitter API support.
+4. Randomly search support.
+5. User log/history support.
+6. Browse content cache in memory to avoid hit in user history storage.
